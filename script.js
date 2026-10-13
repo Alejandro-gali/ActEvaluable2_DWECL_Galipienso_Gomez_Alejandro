@@ -39,7 +39,7 @@ function iniciar() {
         document.getElementById("contador").textContent = contador;
         contador--;
 
-        if (contador == 0) {
+        if (contador == -1) {
             clearInterval(interval);
             document.getElementById("contador").textContent = "El contador ha legado a 0.";
         }
